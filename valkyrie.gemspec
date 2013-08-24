@@ -15,4 +15,6 @@ Gem::Specification.new do |gem|
   gem.files = Dir["**/*"].select { |d| d =~ %r{^(README|bin/|data/|ext/|lib/|spec/|test/)} }
 
   gem.add_dependency "sequel", "~> 3.31.0"
+  gem.add_dependency "mysql2"
+  gem.add_dependency "pg"
 end

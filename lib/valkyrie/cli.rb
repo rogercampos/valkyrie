@@ -1,6 +1,3 @@
-require "valkyrie/database"
-require "valkyrie/progress_bar"
-
 class Valkyrie::CLI
 
   def self.start(*args)

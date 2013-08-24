@@ -1,6 +1,3 @@
-require "sequel"
-require "valkyrie"
-
 class Valkyrie::Database
 
   Sequel.extension :schema_to_hash
